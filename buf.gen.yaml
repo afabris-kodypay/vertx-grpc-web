@@ -1,0 +1,10 @@
+version: v1
+plugins:
+  - name: java
+    out: java
+  - remote: buf.build/grpc/plugins/java:v1.50.2-1
+    out: java
+  - name: kotlin
+    out: kotlin
+  - remote: buf.build/grpc/plugins/kotlin:v1.3.0-2
+    out: kotlin
